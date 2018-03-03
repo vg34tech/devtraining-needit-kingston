@@ -7,13 +7,21 @@
         <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
                 <element label="Human Resources" sequence="0" value="hr"/>
+                <element label="Imported record 1" sequence="0" value="Imported record 1"/>
+                <element label="Imported record 2" sequence="0" value="Imported record 2"/>
+                <element label="Imported record 3" sequence="0" value="Imported record 3"/>
+                <element label="Imported record 4" sequence="0" value="Imported record 4"/>
+                <element label="Imported record 5" sequence="0" value="Imported record 5"/>
                 <element label="Facilities" sequence="1" value="facilities"/>
                 <element label="Legal" sequence="2" value="legal"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="hr1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
             <choice>
+                <element label="Facilities" sequence="0" value="Facilities"/>
+                <element label="Human Resources" sequence="0" value="Human Resources"/>
                 <element label="Human Resources 1" sequence="0" value="hr1"/>
+                <element label="Legal" sequence="0" value="Legal"/>
                 <element label="Human Resources 2" sequence="1" value="hr2"/>
                 <element label="Facilities 1" sequence="2" value="facilities1"/>
                 <element label="Facilities 2" sequence="3" value="facilities2"/>
